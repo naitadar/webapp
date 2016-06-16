@@ -33,11 +33,13 @@ header {
     margin: 4px 0 0 0;
 }
 /*-------------------------------------- nav -----------------------------------------*/
+nav {
+    display: flex;
+}
 .nav-section {
-    float: left;
-    width: 31.00001%;
+    width: 32%;
     background: #000;
-    margin: 15px 3.5% 15px 0;
+    margin: 15px 2% 15px 0;
 }
 .nav-section:hover .action-list {
     display: block;
@@ -113,14 +115,15 @@ header {
 }
 .tabs li {
     background: #ccc;
-    width: 22.75%;
+    width: 23.5%;
     float: left;
-    margin: 0 3% 0 0;
-    padding: 5px;
+    margin: 0 2% 0 0;
+    padding: 8px 5px;
 }
 .tabs li:last-child {
     margin: 0;
 }
 .tabs li a {
     color: #222222;
+    text-decoration: none;
 }
